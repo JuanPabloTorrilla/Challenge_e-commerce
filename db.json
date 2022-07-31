@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "nombre": "Casco Stormtrooper",
+      "imagen": "../assets/images/productos/stormhelmet.SVG",
+      "precio": 25,
+      "categoria": "Star Wars",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 1
+    },
+    {
+      "nombre": "Casco Darth Vader",
+      "imagen": "../assets/images/productos/vaderhelmet.SVG",
+      "precio": "3000",
+      "categoria": "Star Wars",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 2
+    },
+    {
+      "nombre": "Maestro Yoda",
+      "imagen": "../assets/images/productos/yoda.SVG",
+      "precio": 25,
+      "categoria": "Star Wars",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 3
+    },
+    {
+      "nombre": "Stormtrooper",
+      "imagen": "../assets/images/productos/stormtrooper.SVG",
+      "precio": 25,
+      "categoria": "Star Wars",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 4
+    },
+    {
+      "nombre": "Baby Yoda",
+      "imagen": "../assets/images/productos/babyyoda.SVG",
+      "precio": 25,
+      "categoria": "Star Wars",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 5
+    },
+    {
+      "nombre": "Kylo Ren",
+      "imagen": "../assets/images/productos/kyloren.SVG",
+      "precio": 25,
+      "categoria": "Star Wars",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 6
+    }
+  ]
+}

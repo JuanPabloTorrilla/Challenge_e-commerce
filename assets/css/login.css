@@ -1,0 +1,17 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2A7AE4;
+    border-radius: 15px;
+    margin: 5% 20% 0;
+    align-items: center;
+    padding: 5% 0;
+}
+.login-form__input{
+    margin: 7% auto 0;
+    width: 350px;
+    padding: 0 6%;
+}
+.login-form__button{
+    margin: 9% auto 0;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AluraGeek | Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../assets/css/reset.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/login.css">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <header>
+            <div class="container-head">
+                <div class="container-head__left">
+                    <img class="logo" src="../assets/images/logo.SVG" alt="AluraGeek logo">
+                    <div class="search-bar">
+                        <input class="search">
+                        <img src="../assets/images/vector.PNG">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <form class="login-form" action="" data-editProductForm>
+                        <label for="producto">Producto: <input class="login-form__input" type="text" placeholder="Producto" data-producto required></label>
+                        <label for="imagen">URL de la imagen<input class="login-form__input" type="text" placeholder="URL de la imagen" data-imagen></label>
+                        <label for="precio">Precio:<input class="login-form__input" type="number" min="0.00" step="0.01" placeholder="Precio" data-precio required></label>
+                        <label for="categoria">Categoría<input class="login-form__input" type="text" placeholder="Categoría del producto" data-categoría required></label>
+                        <label for="descripcion">Descripción<input class="login-form__input" type="text" placeholder="Descripción del producto" data-descripcion></label>
+                        <button class="login-form__button">Actualizar producto</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <form action="" class="contacto">
+                <label class="contacto__label" for="Nombre">Nombre
+                    <input type="text" name="nombre" required>
+                </label>
+                <label class="contacto__label" for="Teléfono">Teléfono
+                    <input type="tel" name="telefono" required>
+                </label>
+                <label class="contacto__label" for="E-mail">E-mail
+                    <input type="email" name="email" required>
+                </label>
+                <label class="contacto__label" for="Mensaje">Escriba su mensaje
+                    <input type="text" name="mensaje" required>
+                </label>
+                <button type="submit" id="contacto__submit"></button>
+            </form>
+        </footer>
+        <script type="module" src="../controller/edit-product.controller.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" 
+    integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
