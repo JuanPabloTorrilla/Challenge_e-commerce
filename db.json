@@ -2,7 +2,7 @@
   "productos": [
     {
       "nombre": "Casco Stormtrooper",
-      "imagen": "../assets/images/productos/stormhelmet.SVG",
+      "imagen": "./assets/images/productos/stormhelmet.SVG",
       "precio": 25,
       "categoria": "Star Wars",
       "descripcion": "este es un producto de Alura Geek",
@@ -10,7 +10,7 @@
     },
     {
       "nombre": "Casco Darth Vader",
-      "imagen": "../assets/images/productos/vaderhelmet.SVG",
+      "imagen": "./assets/images/productos/vaderhelmet.SVG",
       "precio": "3000",
       "categoria": "Star Wars",
       "descripcion": "este es un producto de Alura Geek",
@@ -18,7 +18,7 @@
     },
     {
       "nombre": "Maestro Yoda",
-      "imagen": "../assets/images/productos/yoda.SVG",
+      "imagen": "./assets/images/productos/yoda.SVG",
       "precio": 25,
       "categoria": "Star Wars",
       "descripcion": "este es un producto de Alura Geek",
@@ -26,7 +26,7 @@
     },
     {
       "nombre": "Stormtrooper",
-      "imagen": "../assets/images/productos/stormtrooper.SVG",
+      "imagen": "./assets/images/productos/stormtrooper.SVG",
       "precio": 25,
       "categoria": "Star Wars",
       "descripcion": "este es un producto de Alura Geek",
@@ -34,7 +34,7 @@
     },
     {
       "nombre": "Baby Yoda",
-      "imagen": "../assets/images/productos/babyyoda.SVG",
+      "imagen": "./assets/images/productos/babyyoda.SVG",
       "precio": 25,
       "categoria": "Star Wars",
       "descripcion": "este es un producto de Alura Geek",
@@ -42,11 +42,107 @@
     },
     {
       "nombre": "Kylo Ren",
-      "imagen": "../assets/images/productos/kyloren.SVG",
+      "imagen": "./assets/images/productos/kyloren.SVG",
       "precio": 25,
       "categoria": "Star Wars",
       "descripcion": "este es un producto de Alura Geek",
       "id": 6
+    },
+    {
+      "nombre": "Gamepad Xbox One",
+      "imagen": "./assets/images/productos/xboxpad.SVG",
+      "precio": 25,
+      "categoria": "Consolas",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 7
+    },
+    {
+      "nombre": "Gamepad PlayStation 4",
+      "imagen": "./assets/images/productos/pspad.SVG",
+      "precio": 25,
+      "categoria": "Consolas",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 8
+    },
+    {
+      "nombre": "Consola Super Nintendo",
+      "imagen": "./assets/images/productos/nes.SVG",
+      "precio": 25,
+      "categoria": "Consolas",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 9
+    },
+    {
+      "nombre": "Gamepad Nintendo DS",
+      "imagen": "./assets/images/productos/dspad2.SVG",
+      "precio": 25,
+      "categoria": "Consolas",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 10
+    },
+    {
+      "nombre": "Consola Xbox Series X",
+      "imagen": "./assets/images/productos/console.SVG",
+      "precio": 25,
+      "categoria": "Consolas",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 11
+    },
+    {
+      "nombre": "Consola GameBoy Color",
+      "imagen": "./assets/images/productos/gameboy.SVG",
+      "precio": 25,
+      "categoria": "Consolas",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 12
+    },
+    {
+      "nombre": "Remera de Atari",
+      "imagen": "./assets/images/productos/atarishirt.SVG",
+      "precio": 25,
+      "categoria": "Varios",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 13
+    },
+    {
+      "nombre": "Remera Super Nintendo",
+      "imagen": "./assets/images/productos/snesshirt.SVG",
+      "precio": 25,
+      "categoria": "Varios",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 14
+    },
+    {
+      "nombre": "Muñeco de Sonic",
+      "imagen": "./assets/images/productos/sonic.SVG",
+      "precio": 25,
+      "categoria": "Varios",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 15
+    },
+    {
+      "nombre": "Radio Retro rosa",
+      "imagen": "./assets/images/productos/pinkradio.SVG",
+      "precio": 25,
+      "categoria": "Varios",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 16
+    },
+    {
+      "nombre": "Dispositivo de VR",
+      "imagen": "./assets/images/productos/vrhelmet.SVG",
+      "precio": 25,
+      "categoria": "Varios",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 17
+    },
+    {
+      "nombre": "Muñeco Pikachu",
+      "imagen": "./assets/images/productos/pikachu.SVG",
+      "precio": 25,
+      "categoria": "Varios",
+      "descripcion": "este es un producto de Alura Geek",
+      "id": 18
     }
   ]
 }

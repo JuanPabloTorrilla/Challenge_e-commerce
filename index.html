@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../assets/css/reset.css">
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="">
         <link rel="stylesheet" href="">
     </head>
@@ -14,18 +14,18 @@
         <header>
             <div class="container-head">
                 <div class="container-head__left">
-                    <img class="logo" src="./images/logo.SVG" alt="AluraGeek logo">
+                    <img class="logo" src="./assets/images/logo.SVG" alt="AluraGeek logo">
                     <div class="search-bar">
                         <input class="search">
-                        <img src="./images/vector.PNG">
+                        <img src="./assets/images/vector.PNG">
                     </div>
                 </div>
-                <a class="login-button" href="login.html">LOGIN</a>
+                <a class="login-button" href="./screens/login.html">LOGIN</a>
             </div>
             <div class="banner">
                 <div class="banner__promo">
-                    <h2 class="banner__titulo">Promos del mes</h2>
-                    <h3 class="banner__subtitulo">hasta % en productos seleccionados</h3>
+                    <h2 class="banner__titulo" data-banner>Promos del mes</h2>
+                    <h3 class="banner__subtitulo">hasta 25% off en productos seleccionados</h3>
                     <button class="button banner__button">ver productos</button>
                 </div>
             </div>  
@@ -33,134 +33,26 @@
         <main>
             <section class="destacados 1">
                 <div class="destacados__titulo">
-                    <h3>Categoría 1</h3>
+                    <h3 data-categoria1>Star Wars</h3>
                     <h4>ver todos</h4>
                 </div>
-                <div class="destacados__productos">
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="../assets/images/productos/stormhelmet.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <a class="button producto__ver">ver producto</a>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="../assets/images/productos/vaderhelmet.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="../assets/images/productos/yoda.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="../assets/images/productos/stormtrooper.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="../assets/images/productos/babyyoda.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="../assets/images/productos/kyloren.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
+                <div class="destacados__productos" data-galeria1>
                 </div>
             </section>
             <section class="destacados 2">
                 <div class="destacados__titulo">
-                    <h3>Categoría 2</h3>
+                    <h3 data-categoria2>Consolas</h3>
                     <h4>ver todos</h4>
                 </div>
-                <div class="destacados__productos">
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/xboxpad.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/pspad.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/nes.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/dspad2.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/console.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/gameboy.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
+                <div class="destacados__productos" data-galeria2>
                 </div>
             </section>
             <section class="destacados 3">
                 <div class="destacados__titulo">
-                    <h3>Categoría 3</h3>
+                    <h3 data-categoria3>Varios</h3>
                     <h4>ver todos</h4>
                 </div>
-                <div class="destacados__productos">
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/atarishirt.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/snesshirt.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/sonic.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/pinkradio.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/vrhelmet.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
-                    <div class="destacado__producto producto">
-                        <img class="producto__foto" src="./images/productos/pikachu.SVG">
-                        <h4 class="producto__nombre">producto x</h4>
-                        <p class="producto__precio">$000</p>
-                        <p class="button producto__ver">ver producto</p>
-                    </div>
+                <div class="destacados__productos" data-galeria3>
                 </div>
             </section>
         </main>
@@ -181,5 +73,6 @@
                 <button type="submit" id="contacto__submit"></button>
             </form>
         </footer>
+        <script type="module" src="./controller/index.controller.js"></script>
     </body>
 </html>

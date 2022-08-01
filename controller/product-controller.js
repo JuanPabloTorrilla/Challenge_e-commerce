@@ -5,7 +5,7 @@ const crearTarjeta = (nombre, imagen, precio, categoria, id, descripcion) => {
     tarjeta.classList.add("destacado__producto");
     tarjeta.classList.add("producto")
     const contenido = `
-        <img class="producto__foto" src="${imagen}">
+        <img class="producto__foto" src=".${imagen}">
         <h4 class="producto__nombre">${nombre}</h4>
         <p class="producto__precio">$${precio}</p>
         <a class="button producto__ver" href="../screens/producto.html?id=${id}">ver producto</a>
@@ -24,10 +24,11 @@ const crearTarjeta = (nombre, imagen, precio, categoria, id, descripcion) => {
 }
 
 const adminProducto = document.querySelector(".admin-producto")
+console.log(adminProducto)
 
 productService.listaProductos()
-.then((data) => {
-    data.forEach(({nombre, imagen, precio, id, categoria, descripcion}) => {
+.then((producto) => {
+    producto.forEach(({nombre, imagen, precio, id, categoria, descripcion}) => {
         const nuevaTarjeta = crearTarjeta(nombre, imagen, precio, categoria, id, descripcion);
         adminProducto.appendChild(nuevaTarjeta);        
     });
