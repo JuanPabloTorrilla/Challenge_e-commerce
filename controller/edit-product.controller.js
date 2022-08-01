@@ -1,7 +1,7 @@
 const editformulario = document.querySelector(".login-form");
 
  import { productService } from "../service/product-service.js";
-
+import { userLog } from "./login.controller.js";
 
 
 const infoProducto = () => {
@@ -36,3 +36,4 @@ editformulario.addEventListener("submit", (evento) =>{
     productService.editarProducto(productName,productImg,productPrice,productCategory,productdescription,id)
     .then(()=> window.location.href="../screens/admin-producto.html")
 })
+

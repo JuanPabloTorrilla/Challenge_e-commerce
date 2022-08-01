@@ -25,9 +25,9 @@
         <main>
             <section>
                 <div>
-                    <form class="login-form" action="">
-                        <label for="usuario"><input class="login-form__input" type="text" placeholder="Usuario"></label>
-                        <label for="contraseña"><input class="login-form__input" type="password" placeholder="Contraseña"></label>
+                    <form class="login-form" data-login>
+                        <label for="usuario"><input class="login-form__input" type="text" placeholder="Usuario" data-user></label>
+                        <label for="contraseña"><input class="login-form__input" type="password" placeholder="Contraseña" data-password></label>
                         <button class="login-form__button">Login</button>
                     </form>
                 </div>
@@ -50,4 +50,5 @@
                 <button type="submit" id="contacto__submit"></button>
             </form>
         </footer>
+        <script  type="module" src="../controller/login.controller.js"></script>
     </body>

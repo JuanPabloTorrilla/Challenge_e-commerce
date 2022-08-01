@@ -1,4 +1,5 @@
 import { productService } from "../service/product-service.js";
+import { userLog } from "./login.controller.js";
 
 const dateObj = new Date
 const mesOferta = dateObj.toLocaleString("es-MX", { month: "long" });

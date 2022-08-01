@@ -1,5 +1,6 @@
 import { productService } from "../service/product-service.js";
-
+import { userLog } from "./login.controller.js";
+if(userLog){
 const crearTarjeta = (nombre, imagen, precio, categoria, id, descripcion) => {
     const tarjeta = document.createElement("div");
     tarjeta.classList.add("destacado__producto");
@@ -24,7 +25,6 @@ const crearTarjeta = (nombre, imagen, precio, categoria, id, descripcion) => {
 }
 
 const adminProducto = document.querySelector(".admin-producto")
-console.log(adminProducto)
 
 productService.listaProductos()
 .then((producto) => {
@@ -33,3 +33,5 @@ productService.listaProductos()
         adminProducto.appendChild(nuevaTarjeta);        
     });
 })
+}else{window.location.href="/Challenge_e-commerce/screens/login.html"}
+console.log(userLog)
